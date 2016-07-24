@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu
+
 echo "===> Install basic utilities..."
 apt-get update
 apt-get install --yes sudo apt-transport-https ca-certificates
